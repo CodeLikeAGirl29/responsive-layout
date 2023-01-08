@@ -4,6 +4,9 @@
 
 ## Project # 2
 This is the responsive layout project on Team Treehouse.
+Live link can be found [here](https://codelikeagirl29.github.io/responsive-layout/)
+
+![javascript](https://camo.githubusercontent.com/3aaee8bf7885dcf0cea8a5647c4514b7d800b1a730d38bce7dadf6bff883378d/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4a61766153637269707426636f6c6f723d323232323232266c6f676f3d4a617661536372697074266c6f676f436f6c6f723d463744463145266c6162656c3d)
 
 ## Screenshot
 ![screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1673161982/projects/Portfolio_oznrpt.png)

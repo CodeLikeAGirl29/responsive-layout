@@ -3,23 +3,21 @@
 ==================================== */
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 body {
-	background-color: rgba(240, 236, 236, 0.45);
-	font-family: "Roboto Condensed", sans-serif;
+  background-color: rgba(240, 236, 236, 0.45);
+  font-family: "Roboto Condensed", sans-serif;
 }
-
 .main {
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+a {
+  text-decoration: none;
 }
 
-a {
-	text-decoration: none;
-}
 
 /* ================================= 
   Base Layout Styles
@@ -28,285 +26,241 @@ a {
 /* ---- Layout Containers ---- */
 
 .main-nav a {
-	display: block;
+  display: block;
 }
-a:link,
-a:visited {
-	color: black;
+a:link, a:visited {
+  color: black;
 }
-
 a:hover {
-	color: #facd6d;
+  color: #facd6d;
 }
-
 .main-nav .name {
-	font-size: 1.5625em;
-	font-weight: bold;
-	margin-bottom: 0;
+  font-size: 1.5625em;
+  font-weight: bold;
+  margin-bottom: 0;
 }
-
 .main-nav ul {
-	font-size: 13px;
-	font-weight: bold;
-	display: inline;
-	text-transform: uppercase;
-	list-style-type: none;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline;
+  text-transform: uppercase;
+  list-style-type: none;
 }
-
 .main-nav li {
-	margin-bottom: 5px;
-	padding: 5px;
-	background-color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: white;
 }
-
 .profile img {
-	margin: 0 auto;
-	width: 100%;
-	padding: 0 2.5em;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 2.5em;
 }
-
 .profile p {
-	font-family: "BenchNine", sans-serif;
-	font-size: 1.1875em;
-	font-weight: lighter;
-	color: grey;
+  font-family: "BenchNine", sans-serif;
+  font-size: 1.1875em;
+  font-weight: lighter;
+  color: grey;
 }
-
 .main-content {
-	background-color: white;
-	width: 100%;
-	margin: 0 auto;
-	padding-bottom: 1.5625em;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 1.5625em;
 }
-
 .main-content h2 {
-	font-size: 0.94em;
-	margin-top: 2em;
-	margin-bottom: 0;
-	padding: 2.5em 0 1.1em;
-	text-transform: uppercase;
+  font-size: 0.94em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding: 2.5em 0 1.1em;
+  text-transform: uppercase;
 }
-
 .main-content .card img {
-	margin: 0 auto;
-	width: 100%;
-	padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
 }
-
 .main-content .card p {
-	font-family: "BenchNine", sans-serif;
-	color: rgba(41, 39, 39, 0.86);
-	font-size: 1.125em;
-	padding: 0 16px;
+  font-family: "BenchNine", sans-serif;
+  color: rgba(41, 39, 39, 0.86);
+  font-size: 1.125em;
+  padding: 0 16px;
 }
 
 /* ---- Skills ---- */
 
 .skills p {
-	font-family: "BenchNine", sans-serif;
-	font-size: 1.1875em;
-	margin-bottom: 0px;
+  font-family: "BenchNine", sans-serif;
+  font-size: 1.1875em;
+  margin-bottom: 0px;
 }
-
 .skills .skills-info {
-	border-top: 1px solid lightgrey;
-	margin-top: 2.5em;
-	padding-top: 2.5em;
+  border-top: 1px solid lightgrey;
+  margin-top: 2.5em;
+  padding-top: 2.5em;
 }
-
 .skills ul {
-	font-size: 13px;
-	font-weight: bold;
-	display: inline;
-	text-transform: uppercase;
-	list-style-type: none;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+.skills li {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #fed36e;
+  border-radius: 5px;
 }
 
-.skills li {
-	width: 40%;
-	margin: auto;
-	margin-bottom: 5px;
-	padding: 5px;
-	background-color: #fed36e;
-	border-radius: 5px;
-}
 
 /* ---- Contact ---- */
 
 .contact-info {
-	margin: 1.4375em 0 3.125em;
+  margin: 1.4375em 0 3.125em;
 }
-
 .contact-info .contact {
-	border-top: 1px solid lightgrey;
-	padding-top: 2.3125em;
+  border-top: 1px solid lightgrey;
+  padding-top: 2.3125em;
+}
+.contact-info .contact, .skills .skills-info {
+  font-size: 0.94em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.text, .text-para, .skills p {
+  color: grey;
 }
 
-.contact-info .contact,
-.skills .skills-info {
-	font-size: 0.94em;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.text,
-.text-para,
-.skills p {
-	color: grey;
-}
 
 /* ---- Footer ---- */
 
 .footer-nav {
-	border-top: 1px solid lightgrey;
-	padding: 1.5625em 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+  border-top: 1px solid lightgrey;
+  padding: 1.5625em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
 .footer-nav h3 {
-	display: inline;
-	font-size: 1em;
-	padding-right: 6.7em;
+  display: inline;
+  font-size: 1em;
+  padding-right: 6.7em;
 }
-
 .footer-ul {
-	display: none;
+  display: none;
 }
-
 .top {
-	list-style-type: none;
-	text-transform: uppercase;
-	font-size: smaller;
-	font-weight: bold;
-	margin-top: 1.1875em;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: bold;
+  margin-top: 1.1875em;
 }
 
 /*------------------Media Queries----------*/
 
 @media (min-width: 768px) {
-	.main-nav .name {
-		margin: 30px 0 10px;
-	}
-
-	.main-nav ul {
-		display: inline-flex;
-		padding-left: 0px;
-		margin-bottom: 0px;
-	}
-
-	.main-nav li {
-		background-color: inherit;
-		padding-left: 20px;
-	}
-
-	.profile {
-		display: flex;
-		flex-direction: row-reverse;
-		margin: 3.125em 1.5625em;
-	}
-
-	.profile img {
-		width: 50%;
-		padding: 0;
-	}
-
-	.profile p {
-		font-size: 1.375em;
-		margin: 0;
-		padding-right: 1em;
-	}
-
-	.main-content .card {
-		width: 50%;
-	}
-
-	.main-content .row-container {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.main-content .card p {
-		padding: 0 1.5625em;
-	}
-
-	.skills p {
-		margin: 1.1875em 5em;
-	}
-
-	.text-para {
-		margin: 2.1875em 6.25em;
-	}
-
-	.footer-nav {
-		padding: 1em 0 3em;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-	.footer-ul {
-		display: block;
-		list-style-type: none;
-	}
-
-	.footer-ul li {
-		display: inline;
-		padding-left: 1.25em;
-		text-transform: uppercase;
-		font-weight: bold;
-		font-size: 13px;
-	}
-
-	.top {
-		display: none;
-	}
+  .main-nav .name {
+      margin: 30px 0 10px;
+ }
+  .main-nav ul {
+      display: inline-flex;
+      padding-left: 0px;
+      margin-bottom: 0px;
+ }
+  .main-nav li {
+      background-color: inherit;
+      padding-left: 20px;
+ }
+  .profile {
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 3.125em 1.5625em;
+ }
+  .profile img {
+      width: 50%;
+      padding: 0;
+ }
+  .profile p {
+      font-size: 1.375em;
+      margin: 0;
+      padding-right: 1em;
+ }
+  .main-content .card {
+      width: 50%;
+ }
+  .main-content .row-container {
+      display: flex;
+      flex-wrap: wrap;
+ }
+  .main-content .card p {
+      padding: 0 1.5625em;
+ }
+  .skills p {
+      margin: 1.1875em 5em;
+ }
+  .text-para {
+      margin: 2.1875em 6.25em;
+ }
+  .footer-nav {
+      padding: 1em 0 3em;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+ }
+  .footer-ul {
+      display: block;
+      list-style-type: none;
+ }
+  .footer-ul li {
+      display: inline;
+      padding-left: 1.25em;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+ }
+  .top {
+      display: none;
+ }
 }
-
 @media (min-width: 1024px) {
-	body {
-		max-width: 1040px;
-		margin: 0 auto;
-	}
-
-	.main-nav {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		padding: 1em 1.25em 0 1.25em;
-	}
-
-	.main-nav .name {
-		margin: 0;
-	}
-
-	.main-nav .main-ul {
-		margin: 0;
-	}
-
-	.profile {
-		margin: 3.125em 1.25em;
-	}
-
-	.profile p {
-		font-size: 1.7em;
-		text-align: left;
-	}
-
-	.row-container .card {
-		width: 33%;
-	}
-
-	.skills p {
-		margin: 1.1875em 10em;
-	}
-
-	.text-para {
-		margin: 2.1875em 13em;
-	}
-
-	.footer-nav {
-		padding: 1em;
-	}
+  body {
+      max-width: 1040px;
+      margin: 0 auto;
+ }
+  .main-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1em 1.25em 0 1.25em;
+ }
+  .main-nav .name {
+      margin: 0;
+ }
+  .main-nav .main-ul {
+      margin: 0;
+ }
+  .profile {
+      margin: 3.125em 1.25em;
+ }
+  .profile p {
+      font-size: 1.7em;
+      text-align: left;
+ }
+  .row-container .card {
+      width: 33%;
+ }
+  .skills p {
+      margin: 1.1875em 10em;
+ }
+  .text-para {
+      margin: 2.1875em 13em;
+ }
+  .footer-nav {
+      padding: 1em;
+ }
 }
+
